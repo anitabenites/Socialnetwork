@@ -1,0 +1,382 @@
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+abbr,
+del, dfn, em, img, ins, q,
+small, ul, li, form,
+table,
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, mark {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.nav-header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: #5858a2;
+    font-size: 40px;
+    position: relative;
+}
+
+.nav-header > h1 {
+    margin-bottom: 20px;
+}
+
+.nav-header > button {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+
+.img-avatar {
+    height: 65px;
+    width: 65px;
+    background-color: #5858a2;
+    position: absolute;
+    top: 16px;
+    left: 28px;
+    border-radius: 32.5px;
+}
+
+.profile-body > div {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-pic > img {
+    width: 450px;
+}
+
+.profile-pic > button {
+    margin:5px;
+}
+
+.profile-details-header {
+    text-align: center;
+    padding: 15px;
+    background-color: crimson;
+    color: white;
+}
+
+.profile-details-body {
+    padding: 15px;
+    background-color: #dedede;
+}
+
+.profile-bio-div {
+    padding: 0px 15px 15px 15px;
+    background-color: #ddd;
+}
+
+.profile-bio-div > div > p {
+    padding: 5px;
+}
+
+.profile-bio-div > div > button {
+    background-color: #5858a2;
+    margin-top: 5px;
+}
+
+.profile-bio-div > div > input {
+    margin: 5px 0px;
+    padding: 5px;
+    width: 80%;
+}
+
+.profile-details-body > p {
+    padding: 5px;
+}
+
+.crimson-btn {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: crimson;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.displayNone {
+    display: none;
+}
+
+.upload-form {
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.upload-form > div > input {
+    font-size: small;
+    height: 17px;
+    background-color: #dedede;
+    padding: 12px;
+}
+
+.upload-form > div {
+    position: absolute;
+    height: 150px;
+    left: 0px;
+    right: 0px;
+    margin: 20% auto; 
+    padding: 30px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.upload-form > div > p {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.upload-form > div > button {
+    background-color: #5858a2;
+    margin: 10px;
+    width: 100px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.profile-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile-bio {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.header-info {
+    text-align: center;
+}
+
+.header-info > h1 {
+    padding: 20px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.welcome-content > p {
+    font-size:20px;
+}
+
+.welcome-content > img {
+    width: 80%;
+}
+
+.welcome-content > div > a > button {
+    padding: 10px;
+    margin: 20px;
+    width: 140px;;
+    border: none;
+    font-size: 30px;
+}
+
+.welcome-content > div > a > button {
+    color: #fff;
+}
+
+.welcome-content > div > a:first-of-type > button {
+    background-color: crimson;
+}
+
+.welcome-content > div > a:last-of-type > button {
+    background-color: #5858a2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-form, .register-form {
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fdfdfd;
+}
+
+.register-form {
+    width: 90%;
+}
+
+.login-form > input, .register-form > input {
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    font-size: 15px;
+}
+
+.register-form > input {
+    width: 30%;
+}
+
+.register-form > button, .login-form > button {
+    border: 0px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.friend-pic {
+    width: 200px;
+    cursor: pointer;
+}
+
+.grid-item {
+    font-size: 20px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    position:relative;
+}
+
+.grid-item > p {
+    padding: 10px 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+}
+
+.grid-header {
+    background: crimson;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.list-container {
+    padding: 20px;
+}
+
+.action-btn {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 5px;
+    background-color: #5758a2;
+    color: #fff;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.links {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.links > a {
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.divider {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
